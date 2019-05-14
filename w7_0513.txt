@@ -1,0 +1,9 @@
+- open . => open this folder in default file browser
+- open filename.html => open the file in browser
+
+function without return keyword => not returning a value
+
+js type coersion
+- 1 + '2' = 12 convert number to string and concatenate
+- 4 - '2' = 2 convert string to number and do the math calc.
+- * / same as -
