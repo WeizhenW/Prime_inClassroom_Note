@@ -1,0 +1,7 @@
+option + shift + F
+clean the format
+
+falsy value: empty spring, number 0
+truthy: empty array, empty object
+
+Chrome debugger
