@@ -1,0 +1,23 @@
+jQuery review:
+with document.ready 
+=> jQuery will load after the entire html page is loaded
+=> document will only be ready when the entire html file has gone through (reason why js file could be put at the end)
+
+function onReady() {
+    $('#deleteButton').on('click', handleClick()) 
+}
+
+function handleClick() {
+    console.log('hello events');
+}
+
+=> the () after function name - invoke the function immediately
+=> return undefined and log the sentence once
+=> click event not working (execute 'undefined');
+
+event listener:
+-> selector
+-> action
+
+this: the context in which we are executing the code => the item just selected
+    or the specific thing that trigger the event
