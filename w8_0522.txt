@@ -1,0 +1,18 @@
+--------git hub------------------
+git remote add <nickname for the url> <url at github>
+git push -u origin master 
+=> (origin is the nickname)
+=> (master is the branch)
+
+git remote -v 
+=> to check where at github the files will be pushed to
+
+---------Debugger Tool for server--------------------
+In visual studio code
+
+Click on the debug on the left Hand side
+On top: the rectangle to show the console
+Setting -> to get the launch.json file -> change the path to the server.js file inside the launch.js file (including the folder and file name)
+in the server.js file, put the breakpoints
+Get the debug menu -> refresh to restart the server
+Step through...

@@ -1,0 +1,29 @@
+-------------------POST/GET----------------------------
+one request => one response
+
+app.use(express.static...)
+=========
+"base route" :
+tell the server when the home/ request comes
+check inside 'server/public' file => it will check if there is the index.html, if exists send it back
+
+browser will display index.html and go through the file
+when it comes to the script lines or link line => recognized as static file 
+    => go to check server/public again (defined at app.use(express.static)) the js or css files sourced in
+    => if not, keep going; if there, source in the files
+
+order could matter => first come first serve
+
+============
+$.ajax make a get request on the /quotes
+=> go to server.js
+=> get response from the route
+=> send response back to client.js
+=> client.js responsible to get the content to the DOM
+
+client side wont have access to the server directly
+using ajax to access the data on server
+/quotes is the place as intermediary to pass the array from server to client side
+
+=============
+static file

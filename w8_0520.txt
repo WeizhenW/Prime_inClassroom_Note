@@ -1,0 +1,21 @@
+-----Weekend Challenge Live Code - Mary ---------
+//Command Line and Git
+rm -rf .git
+=> break the link between the local directory vs. the git repo
+=> -rf means remove everything inside the folder even including the hidden files
+git remote set-url <new github url>
+
+ls -a
+=>show everything including hidden files
+
+.gitignore files
+=> add files into the file and those files won't be pushed to github
+
+difference b/w:
+- .empty(); remove all the child elements 
+- .remove(); remove the element itself
+- .text(''); only apply when there's no node inside
+
+--------jQuery data method ---------
+
+
