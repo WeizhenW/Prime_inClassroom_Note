@@ -1,0 +1,49 @@
+brew services list
+brew services start postgresql
+=> to start the server
+
++database
+snake case with _
+
+sql schema
+
+create table => refresh to display the table
+id don't need to be provided => serial primary key
+
+-------------------
+
+CREATE TABLE table-name (
+    col1 datatype,
+    col2 datatype
+)
+
+CREATE TABLE "songs" (
+	"id" SERIAL PRIMARY KEY,
+	"rank" INTEGER,
+	"artist" VARCHAR(80) NOT NULL,
+	"track" VARCHAR(120) NOT NULL,
+	"published" DATE 
+);
+
+---------------------
+INSERT INTO
+
+INSERT INTO "songs"  ("rank", "track", "artist", "published")
+VALUES (357, 'Wonderwall', 'Oasis', '1-1-1996');
+
+----------------------
+
+select * from xxx like
+where ...
+where xx like xxx //like for case sensitive
+where xx ilike xxx //ilike for case insensitive
+wildcard "%abc%" => % represents 0 or more letters
+
+SELECT * FROM "songs";
+
+SELECT "artist", "track" FROM "songs" WHERE "id"=11;
+
+SELECT * FROM "songs" WHERE "track" LIKE '%a%';
+SELECT * FROM "songs" WHERE "track" LIKE '%a';
+SELECT * FROM "songs" WHERE "track" ILIKE '%a%';
+SELECT * FROM "songs" WHERE "published" >= '1970-01-01' AND "published" <= '1979-12-31';
