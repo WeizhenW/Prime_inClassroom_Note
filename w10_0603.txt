@@ -1,0 +1,23 @@
+=> Put pool in a different file
+=> add the following into the server.js file:
+const port = process.env.PORT || 5000;//environment variable comes from heroku
+
+-----------project with server------------------
+deploy => github => get repo name => auto deploy=> manual deploy for the first time
+=> select the branch if needed
+=> view -> get the url
+
+heroku will run npm install and npm start when they receive the code
+
+---in package.json 
+-> must contain 'start' script
+-> dependencies 
+
+add papertrail from resources => will show the logs
+add heroku postgres from resources 
+=> be able to create the database at the heroku side
+=> setting reveal config vars
+
+overview => heroku database to see the database url 
+setting => administration => check credentials
+=> create a new database with the info from heroku

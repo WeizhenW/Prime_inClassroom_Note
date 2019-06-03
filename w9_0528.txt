@@ -15,8 +15,8 @@ create table => refresh to display the table
 id don't need to be provided => serial primary key
 
 CREATE TABLE table-name (
-    col1 datatype,
-    col2 datatype
+    "col1" datatype,
+    "col2" datatype
 )
 
 CREATE TABLE "songs" (

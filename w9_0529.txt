@@ -1,0 +1,2 @@
+-------------------------------------DATABASE-------------------------------------------
+when create git repo => include .git and don't need to git init the local folder - only git clone
